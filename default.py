@@ -7,6 +7,13 @@
 #
 # The code examples should be pushed to a private git repository.
 
+
+
+
+
+
+
+#IMPORTANT: this is an example of the given code only, not a part of developee code. The snake game is inside the folder and main python script for exemining progress is main.py
 import pygame
 import time
 import random
@@ -50,7 +57,7 @@ def message(msg, color):
     dis.blit(mesg, [dis_width / 6, dis_height / 3])
 
 
-def gameLoop():
+#def gameLoop():
     game_over = False
     game_close = False
 
